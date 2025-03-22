@@ -29,10 +29,14 @@ routes = [
 [env.production.vars]
 MODE = "production"
 TARGET_UPSTREAM = ""
+CUSTOM_DOMAIN = "19910127.xyz"
 
 [env.staging]
 name = "cloudflare-docker-proxy-staging"
 # route = { pattern = "docker-staging.19910127.xyz", custom_domain = true }
+
+[observability.logs]
+enabled = true
 
 [env.staging.vars]
 MODE = "staging"
