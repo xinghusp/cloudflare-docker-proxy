@@ -21,7 +21,7 @@ routes = [
   { pattern = "quay.19910127.xyz", custom_domain = true },
   { pattern = "gcr.19910127.xyz", custom_domain = true },
   { pattern = "k8s-gcr.19910127.xyz", custom_domain = true },
-  { pattern = "k8s.19910127.xyz", custom_domain = true },
+  { pattern = "k8.19910127.xyz", custom_domain = true },
   { pattern = "ghcr.19910127.xyz", custom_domain = true },
   { pattern = "cloudsmith.19910127.xyz", custom_domain = true },
 ]
